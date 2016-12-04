@@ -249,5 +249,7 @@ SpeechRecognition.onerror handles cases where there is an actual error with the 
 ![screenshot_21](https://cloud.githubusercontent.com/assets/10474169/20865888/8faa89d6-b9d2-11e6-8fdd-b6ff8926fe56.png)
 
 #### Reference
+
 [Text Reference](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API).
+
 [API Reference](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
