@@ -20,7 +20,6 @@ var SpeechRecognitionService = (function () {
         return Rx_1.Observable.create(function (observer) {
             var webkitSpeechRecognition = window.webkitSpeechRecognition;
             _this.speechRecognition = new webkitSpeechRecognition();
-            //this.speechRecognition = SpeechRecognition;
             _this.speechRecognition.continuous = true;
             //this.speechRecognition.interimResults = true;
             _this.speechRecognition.lang = 'en-us';
