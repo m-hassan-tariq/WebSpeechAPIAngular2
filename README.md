@@ -1,7 +1,7 @@
 # Web Speech API Angular2
 Speech Recognition functionality of the Web Speech API in Angular2 application
 
-## Speech recognition
+### Speech Recognition
 
 Speech recognition involves receiving speech through a device's microphone, which is then checked by a speech recognition service against a list of grammar (basically, the vocabulary you want to have recognised in a particular app.) When a word or phrase is successfully recognised, it is returned as a result (or list of results) as a text string, and further actions can be initiated as a result.
 
@@ -9,7 +9,7 @@ The Web Speech API has a main controller interface for this — SpeechRecognitio
 
 -----   
 
-##### Chrome support
+#### Chrome support
 
 As mentioned earlier, Chrome currently supports speech recognition with prefixed properties, therefore at the start of our code we include these lines to feed the right objects to Chrome, and non-prefix browsers, like Firefox:
 
@@ -104,7 +104,7 @@ SpeechRecognition.onerror handles cases where there is an actual error with the 
 
 # Web Speech API in Angular2
 
-## Angular2 Service using Web Speech API 
+### Angular2 Service using Web Speech API 
 
     import { Injectable, NgZone } from '@angular/core';
     import { Observable } from 'rxjs/Rx';
@@ -173,7 +173,7 @@ SpeechRecognition.onerror handles cases where there is an actual error with the 
 
     }
 
-## Component using above service 
+### Component using above service 
 
     import { Component, OnInit, OnDestroy} from '@angular/core';
     import { SpeechRecognitionService } from './speech-recognition.service';
@@ -238,7 +238,9 @@ SpeechRecognition.onerror handles cases where there is an actual error with the 
 
 ![screenshot_19](https://cloud.githubusercontent.com/assets/10474169/20865887/8fa9f69c-b9d2-11e6-923f-49f5127462f8.png)
 
+
 ![screenshot_20](https://cloud.githubusercontent.com/assets/10474169/20865889/8fab5f1e-b9d2-11e6-9117-28d9e2603853.png)
+
 
 ![screenshot_21](https://cloud.githubusercontent.com/assets/10474169/20865888/8faa89d6-b9d2-11e6-8fdd-b6ff8926fe56.png)
 
