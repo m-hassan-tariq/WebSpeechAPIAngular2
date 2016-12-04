@@ -23,10 +23,10 @@ As mentioned earlier, Chrome currently supports speech recognition with prefixed
 * __SpeechRecognition.interimResults__: Defines whether the speech recognition system should return interim results, or just final results. Final results are good enough for this simple demo.
 * __SpeechRecognition.maxAlternatives__: Sets the number of alternative potential matches that should be returned per result. 
 
-      recognition.continuous = false;
-      recognition.lang = 'en-US';
-      recognition.interimResults = false;
-      recognition.maxAlternatives = 1;
+              recognition.continuous = false;
+              recognition.lang = 'en-US';
+              recognition.interimResults = false;
+              recognition.maxAlternatives = 1;
 
 #### Event handlers
 
