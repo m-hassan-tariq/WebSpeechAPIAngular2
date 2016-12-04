@@ -236,14 +236,15 @@ SpeechRecognition.onerror handles cases where there is an actual error with the 
     
 ### Output
 
-*Initial State:
+**Initial State:**
+
 ![screenshot_19](https://cloud.githubusercontent.com/assets/10474169/20865887/8fa9f69c-b9d2-11e6-923f-49f5127462f8.png)
 
-*Example1
+**Example1**
 
 ![screenshot_20](https://cloud.githubusercontent.com/assets/10474169/20865889/8fab5f1e-b9d2-11e6-9117-28d9e2603853.png)
 
-*Example2
+**Example2**
 
 ![screenshot_21](https://cloud.githubusercontent.com/assets/10474169/20865888/8faa89d6-b9d2-11e6-8fdd-b6ff8926fe56.png)
 
